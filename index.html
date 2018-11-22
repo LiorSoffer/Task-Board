@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Task Board</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="script.js"></script> -->
+
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1></h1>
+        <form name="MyForm">
+            <label>Date: </label>
+            <input type="date" class="date1" value="">
+            <h2 id="0">*</h2>
+            <label>Description: </label>
+            <input type="textarea" class="text1" value=""><br>
+            <h2 id="1">*</h2>
+            <input type="button" class="btn1" value="Pin Your Task!" onclick="validate()">
+        </form>
+        <div id="tasks"></div>
+    </main>
+</body>
+<script src="script.js"></script>
+
+</html>
